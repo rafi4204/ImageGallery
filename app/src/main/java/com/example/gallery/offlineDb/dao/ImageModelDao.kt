@@ -1,4 +1,4 @@
-package com.example.gallery.offlineDb
+package com.example.gallery.offlineDb.dao
 
 import androidx.paging.PagingSource
 import androidx.room.Dao

@@ -5,7 +5,7 @@ import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
 import com.example.gallery.data.ImageModel
-import com.example.gallery.offlineDb.ImageModelDao
+import com.example.gallery.offlineDb.dao.ImageModelDao
 import com.example.gallery.offlineDb.RemoteKeys
 import com.example.imagegallery.dao.RemoteKeysDao
 import dagger.hilt.android.scopes.ActivityRetainedScoped
