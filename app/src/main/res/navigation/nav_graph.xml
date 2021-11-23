@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph.xml"
+    app:startDestination="@id/imageGalleryFragment">
+
+
+    <fragment
+        android:id="@+id/imageGalleryFragment"
+        android:name="com.example.gallery.ui.ImageGalleryFragment"
+        android:label="fragment_image_gallery"
+        tools:layout="@layout/fragment_image_gallery">
+        <action
+            android:id="@+id/action_imageGalleryFragment_to_fullScreenImageFragment"
+            app:destination="@id/fullScreenImageFragment">
+            <argument
+                android:name="url"
+                app:argType="string" />
+        </action>
+
+    </fragment>
+    <fragment
+        android:id="@+id/fullScreenImageFragment"
+        android:name="com.example.gallery.ui.FullScreenImageFragment"
+        android:label="fragment_full_screen_image"
+        tools:layout="@layout/fragment_full_screen_image" />
+</navigation>
