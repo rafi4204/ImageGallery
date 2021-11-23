@@ -14,8 +14,6 @@ import javax.inject.Inject
 @HiltViewModel
 class ImageGalleryViewModel
 @Inject constructor(private val repository: Repository) : ViewModel() {
-
-
     var list = MutableLiveData<PagingData<ImageModel>>()
 
     suspend fun getImage() {
