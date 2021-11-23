@@ -8,7 +8,7 @@
 
     <fragment
         android:id="@+id/imageGalleryFragment"
-        android:name="com.example.gallery.ui.ImageGalleryFragment"
+        android:name="com.example.gallery.ui.fragment.ImageGalleryFragment"
         android:label="fragment_image_gallery"
         tools:layout="@layout/fragment_image_gallery">
         <action
@@ -22,7 +22,7 @@
     </fragment>
     <fragment
         android:id="@+id/fullScreenImageFragment"
-        android:name="com.example.gallery.ui.FullScreenImageFragment"
+        android:name="com.example.gallery.ui.fragment.FullScreenImageFragment"
         android:label="fragment_full_screen_image"
         tools:layout="@layout/fragment_full_screen_image" />
 </navigation>

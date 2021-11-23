@@ -1,4 +1,4 @@
-package com.example.gallery.ui
+package com.example.gallery.ui.fragment
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -12,6 +12,7 @@ import androidx.navigation.fragment.NavHostFragment
 import androidx.paging.ExperimentalPagingApi
 import com.example.gallery.R
 import com.example.gallery.databinding.FragmentImageGalleryBinding
+import com.example.gallery.ui.viewModel.ImageGalleryViewModel
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint

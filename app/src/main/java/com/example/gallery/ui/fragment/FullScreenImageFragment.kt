@@ -1,4 +1,4 @@
-package com.example.gallery.ui
+package com.example.gallery.ui.fragment
 
 import android.os.Bundle
 import android.view.*
@@ -7,8 +7,6 @@ import androidx.fragment.app.Fragment
 import com.example.gallery.R
 import com.example.gallery.databinding.FragmentFullScreenImageBinding
 import dagger.hilt.android.AndroidEntryPoint
-import java.io.*
-import java.util.*
 
 
 @AndroidEntryPoint
