@@ -16,10 +16,10 @@ class ImageGalleryViewModel
 @Inject constructor(private val repository: Repository) : ViewModel() {
 
 
-    var list = MutableLiveData<List<ImageModel>>()
+    var list = MutableLiveData<PagingData<ImageModel>>()
 
     suspend fun getImage() {
-        repository.getImages(1)
+        repository.letImagesFlowDb()
             .collect {
                 list.value = it
             }
