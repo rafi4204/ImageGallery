@@ -1,7 +1,7 @@
 # ImageGallery
 
 ## About the App
-A simple image gallery app.Images are coming from this(https://picsum.photos/v2/) api. Images are shown in a list view. User will be able to share the image and download it in local gallery. 
+A simple image gallery app.Images are coming from this(https://picsum.photos/v2/) api. Images are shown in a list view. User will be able to share the image and download it in local gallery. For network calling coroutine Flow have been used.
 
 ![screenshot](images/gif.gif)
 
